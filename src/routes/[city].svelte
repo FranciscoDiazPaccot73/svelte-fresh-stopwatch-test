@@ -11,7 +11,7 @@
 <svelte:head>
 	<title>Stopwatch</title>
 	<meta name="description" content="Svelte stopwatch app" />
-	<link rel="preload" as="image" href={`http://openweathermap.org/img/w/${data?.icon}.png`} />
+	<link rel="prefetch" href={`http://openweathermap.org/img/w/${data?.icon}.png`} />
 </svelte:head>
 
 <section>
